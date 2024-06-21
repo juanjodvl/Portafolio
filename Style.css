@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+.menu-fijo{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+}
+.menu-fijo:hover{
+    background-color: #455ff5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.animacion-titulo{
+    animation: aparecer 2s ease-in-out;
+}
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    background: #223391;
+    margin: auto;
+    scroll-behavior: smooth;
+    padding-top: 70px;
+    width: 900px;
+    height: 900px;
+}
+header{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#nombre{
+    color:#fff;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80q;
+    margin-top: 20px;
+}
+h2{
+    margin-top: 10px;
+}
+nav{
+    list-style: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #ddd;
+}
+#contacto{
+    background-color: #90a0f7;
+    display: inline-block;
+    list-style: none;
+    width: 900px;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contacto ul{
+    list-style: none;
+    padding: 0;
+}
+#contacto ul li a{
+    color:black;
+}
+#acerca-de-mi{
+    margin-top: 30px;
+    background-color: #90a0f7;
+    text-align: justify;
+    width: 900px;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#acerca-de-mi h3{
+    text-align: center;
+}
+#habilidades{
+    background-color: #90a0f7;
+    margin-top: 30px;
+    width: 900px;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#experiencia{
+    background-color: #90a0f7;
+    margin-top: 30px;
+    width: 900px;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#experiencia ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#experiencia ul li{
+    margin-bottom: 10px;
+}
+#experiencia ul li strong{
+    font-weight: bold;
+}
+#experiencia ul li ul{
+    margin-top: 10px;
+}
+#proyectos{
+    background-color: #90a0f7;
+    margin-top: 30px;
+    width: 900px;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#proyectos ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+#proyectos ul li a{
+    color: black;
+}
+footer{
+    margin-top: 40px;
+    color: white;
+}
